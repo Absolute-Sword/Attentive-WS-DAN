@@ -1,0 +1,40 @@
+======user config========
+{'voc_data_dir': '/home/runji/Documents/dataset/VOCdevkit/VOC2007/', 'min_size': 1000, 'max_size': 1000, 'img_size': 1000, 'num_workers': 16, 'test_num_workers': 8, 'load_path': None, 'rpn_sigma': 3.0, 'roi_sigma': 1.0, 'scale': 1, 'test_scale': 1, 'weight_decay': 0.0005, 'lr_decay': 0.1, 'lr': 0.001, 'plot_every': 100, 'data': 'voc', 'pretrained_model': 'vgg16', 'epoch': 18, 'use_adam': False, 'use_chainer': False, 'use_drop': False, 'debug_file': '/tmp/debugf', 'test_num': 10000, 'caffe_pretrain': False}
+==========end============
+load data, data:length 5011
+load test_data, test_data:length 4952
+model construct completed
+0it [00:00, ?it/s]1it [00:01,  1.35s/it]2it [00:01,  1.33it/s]3it [00:02,  1.76it/s]4it [00:02,  2.14it/s]5it [00:02,  2.33it/s]6it [00:03,  2.58it/s]7it [00:03,  2.75it/s]8it [00:03,  2.96it/s]8it [00:03,  2.04it/s]
+Traceback (most recent call last):
+  File "train.py", line 151, in <module>
+    train()
+  File "train.py", line 114, in train
+    losses, info,*_ = trainer.train_step(img, scale, paste_scale, *copy_cache, *paste_cache, cutmix_flag, plot_flag)
+  File "/home/runji/Documents/experiment/trainer.py", line 260, in train_step
+    self.update_meters(losses)
+  File "/home/runji/Documents/experiment/trainer.py", line 331, in update_meters
+    loss_d = {k: at.scalar(v) for k, v in losses._asdict().items()}
+  File "/home/runji/Documents/experiment/trainer.py", line 331, in <dictcomp>
+    loss_d = {k: at.scalar(v) for k, v in losses._asdict().items()}
+  File "/home/runji/Documents/experiment/utils/array_tool.py", line 29, in scalar
+    return data.item()
+KeyboardInterrupt
+usage: jupyter-notebook [-h] [--debug] [--generate-config] [-y] [--no-browser]
+                        [--no-mathjax] [--allow-root] [--autoreload]
+                        [--script] [--no-script]
+                        [--log-level NotebookApp.log_level]
+                        [--config NotebookApp.config_file]
+                        [--ip NotebookApp.ip] [--port NotebookApp.port]
+                        [--port-retries NotebookApp.port_retries]
+                        [--sock NotebookApp.sock]
+                        [--sock-mode NotebookApp.sock_mode]
+                        [--transport KernelManager.transport]
+                        [--keyfile NotebookApp.keyfile]
+                        [--certfile NotebookApp.certfile]
+                        [--client-ca NotebookApp.client_ca]
+                        [--notebook-dir NotebookApp.notebook_dir]
+                        [--browser NotebookApp.browser]
+                        [--pylab [NotebookApp.pylab]]
+                        [--gateway-url GatewayClient.url]
+                        [extra_args [extra_args ...]]
+jupyter-notebook: error: unrecognized arguments: --alloww-root

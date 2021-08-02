@@ -1,0 +1,61 @@
+2021-06-11 03:43:36,971: INFO: [<ipython-input-11-7af50fe8e206>:21]: [Batch: 0/Iter 100] cutmix training loss: 1.04
+2021-06-11 03:44:50,462: INFO: [<ipython-input-11-7af50fe8e206>:21]: [Batch: 0/Iter 200] cutmix training loss: 1.04
+2021-06-11 03:46:03,864: INFO: [<ipython-input-11-7af50fe8e206>:21]: [Batch: 0/Iter 300] cutmix training loss: 1.03
+2021-06-11 03:47:17,371: INFO: [<ipython-input-11-7af50fe8e206>:21]: [Batch: 0/Iter 400] cutmix training loss: 1.01
+2021-06-11 03:48:30,971: INFO: [<ipython-input-11-7af50fe8e206>:21]: [Batch: 0/Iter 500] cutmix training loss: 1.00
+2021-06-11 03:49:43,357: INFO: [<ipython-input-11-7af50fe8e206>:21]: [Batch: 0/Iter 600] cutmix training loss: 1.00
+2021-06-11 03:50:11,270: INFO: [<ipython-input-11-7af50fe8e206>:69]: [Batch: 0] training loss: 1.00 lr: 5e-05
+2021-06-11 03:51:31,059: INFO: [<ipython-input-11-7af50fe8e206>:21]: [Batch: 1/Iter 100] cutmix training loss: 0.99
+2021-06-11 03:52:43,176: INFO: [<ipython-input-11-7af50fe8e206>:21]: [Batch: 1/Iter 200] cutmix training loss: 0.96
+2021-06-11 03:53:55,657: INFO: [<ipython-input-11-7af50fe8e206>:21]: [Batch: 1/Iter 300] cutmix training loss: 0.96
+2021-06-11 03:55:06,462: INFO: [<ipython-input-11-7af50fe8e206>:21]: [Batch: 1/Iter 400] cutmix training loss: 0.97
+2021-06-11 03:56:21,100: INFO: [<ipython-input-11-7af50fe8e206>:21]: [Batch: 1/Iter 500] cutmix training loss: 0.96
+2021-06-11 03:57:33,311: INFO: [<ipython-input-11-7af50fe8e206>:21]: [Batch: 1/Iter 600] cutmix training loss: 0.95
+2021-06-11 03:58:02,101: INFO: [<ipython-input-11-7af50fe8e206>:69]: [Batch: 1] training loss: 0.95 lr: 5e-05
+2021-06-11 03:59:14,422: INFO: [<ipython-input-11-7af50fe8e206>:21]: [Batch: 2/Iter 100] cutmix training loss: 0.94
+2021-06-11 04:00:30,136: INFO: [<ipython-input-11-7af50fe8e206>:21]: [Batch: 2/Iter 200] cutmix training loss: 0.93
+2021-06-11 04:01:41,969: INFO: [<ipython-input-11-7af50fe8e206>:21]: [Batch: 2/Iter 300] cutmix training loss: 0.91
+2021-06-11 04:02:54,555: INFO: [<ipython-input-11-7af50fe8e206>:21]: [Batch: 2/Iter 400] cutmix training loss: 0.93
+2021-06-11 04:04:08,165: INFO: [<ipython-input-11-7af50fe8e206>:21]: [Batch: 2/Iter 500] cutmix training loss: 0.92
+2021-06-11 04:05:21,981: INFO: [<ipython-input-11-7af50fe8e206>:21]: [Batch: 2/Iter 600] cutmix training loss: 0.92
+2021-06-11 04:05:49,107: INFO: [<ipython-input-11-7af50fe8e206>:69]: [Batch: 2] training loss: 0.92 lr: 5e-05
+2021-06-11 04:07:02,940: INFO: [<ipython-input-11-7af50fe8e206>:21]: [Batch: 3/Iter 100] cutmix training loss: 0.90
+2021-06-11 04:08:15,760: INFO: [<ipython-input-11-7af50fe8e206>:21]: [Batch: 3/Iter 200] cutmix training loss: 0.89
+2021-06-11 04:09:29,186: INFO: [<ipython-input-11-7af50fe8e206>:21]: [Batch: 3/Iter 300] cutmix training loss: 0.91
+2021-06-11 04:10:39,782: INFO: [<ipython-input-11-7af50fe8e206>:21]: [Batch: 3/Iter 400] cutmix training loss: 0.91
+2021-06-11 04:11:55,301: INFO: [<ipython-input-11-7af50fe8e206>:21]: [Batch: 3/Iter 500] cutmix training loss: 0.91
+2021-06-11 04:13:07,461: INFO: [<ipython-input-11-7af50fe8e206>:21]: [Batch: 3/Iter 600] cutmix training loss: 0.89
+2021-06-11 04:13:35,489: INFO: [<ipython-input-11-7af50fe8e206>:69]: [Batch: 3] training loss: 0.89 lr: 5e-05
+2021-06-11 04:14:50,229: INFO: [<ipython-input-11-7af50fe8e206>:21]: [Batch: 4/Iter 100] cutmix training loss: 0.89
+2021-06-11 04:16:04,841: INFO: [<ipython-input-11-7af50fe8e206>:21]: [Batch: 4/Iter 200] cutmix training loss: 0.89
+2021-06-11 04:17:17,375: INFO: [<ipython-input-11-7af50fe8e206>:21]: [Batch: 4/Iter 300] cutmix training loss: 0.89
+2021-06-11 04:18:31,580: INFO: [<ipython-input-11-7af50fe8e206>:21]: [Batch: 4/Iter 400] cutmix training loss: 0.88
+2021-06-11 04:19:41,615: INFO: [<ipython-input-11-7af50fe8e206>:21]: [Batch: 4/Iter 500] cutmix training loss: 0.87
+2021-06-11 04:20:53,328: INFO: [<ipython-input-11-7af50fe8e206>:21]: [Batch: 4/Iter 600] cutmix training loss: 0.87
+2021-06-11 04:21:19,829: INFO: [<ipython-input-11-7af50fe8e206>:69]: [Batch: 4] training loss: 0.88 lr: 5e-05
+2021-06-11 04:22:35,053: INFO: [<ipython-input-11-7af50fe8e206>:21]: [Batch: 5/Iter 100] cutmix training loss: 0.81
+2021-06-11 04:23:44,985: INFO: [<ipython-input-11-7af50fe8e206>:21]: [Batch: 5/Iter 200] cutmix training loss: 0.85
+2021-06-11 04:24:58,771: INFO: [<ipython-input-11-7af50fe8e206>:21]: [Batch: 5/Iter 300] cutmix training loss: 0.85
+2021-06-11 04:26:13,471: INFO: [<ipython-input-11-7af50fe8e206>:21]: [Batch: 5/Iter 400] cutmix training loss: 0.85
+2021-06-11 04:27:30,155: INFO: [<ipython-input-11-7af50fe8e206>:21]: [Batch: 5/Iter 500] cutmix training loss: 0.84
+2021-06-11 04:28:43,961: INFO: [<ipython-input-11-7af50fe8e206>:21]: [Batch: 5/Iter 600] cutmix training loss: 0.84
+2021-06-11 04:29:10,661: INFO: [<ipython-input-11-7af50fe8e206>:69]: [Batch: 5] training loss: 0.84 lr: 5e-05
+2021-06-11 04:30:23,848: INFO: [<ipython-input-11-7af50fe8e206>:21]: [Batch: 6/Iter 100] cutmix training loss: 0.80
+2021-06-11 04:31:37,309: INFO: [<ipython-input-11-7af50fe8e206>:21]: [Batch: 6/Iter 200] cutmix training loss: 0.81
+2021-06-11 04:32:49,461: INFO: [<ipython-input-11-7af50fe8e206>:21]: [Batch: 6/Iter 300] cutmix training loss: 0.82
+2021-06-11 04:34:02,828: INFO: [<ipython-input-11-7af50fe8e206>:21]: [Batch: 6/Iter 400] cutmix training loss: 0.83
+2021-06-11 04:35:18,902: INFO: [<ipython-input-11-7af50fe8e206>:21]: [Batch: 6/Iter 500] cutmix training loss: 0.85
+2021-06-11 04:36:29,620: INFO: [<ipython-input-11-7af50fe8e206>:21]: [Batch: 6/Iter 600] cutmix training loss: 0.84
+2021-06-11 04:36:58,503: INFO: [<ipython-input-11-7af50fe8e206>:69]: [Batch: 6] training loss: 0.84 lr: 5e-05
+2021-06-11 04:38:13,332: INFO: [<ipython-input-11-7af50fe8e206>:21]: [Batch: 7/Iter 100] cutmix training loss: 0.86
+2021-06-11 04:39:25,300: INFO: [<ipython-input-11-7af50fe8e206>:21]: [Batch: 7/Iter 200] cutmix training loss: 0.86
+2021-06-11 04:40:39,544: INFO: [<ipython-input-11-7af50fe8e206>:21]: [Batch: 7/Iter 300] cutmix training loss: 0.84
+2021-06-11 04:41:50,466: INFO: [<ipython-input-11-7af50fe8e206>:21]: [Batch: 7/Iter 400] cutmix training loss: 0.83
+2021-06-11 04:43:04,175: INFO: [<ipython-input-11-7af50fe8e206>:21]: [Batch: 7/Iter 500] cutmix training loss: 0.83
+2021-06-11 04:44:15,178: INFO: [<ipython-input-11-7af50fe8e206>:21]: [Batch: 7/Iter 600] cutmix training loss: 0.83
+2021-06-11 04:44:35,059: ERROR: [ultratb.py:152]: Internal Python error in the inspect module.
+Below is the traceback from this internal error.
+
+2021-06-11 04:44:35,076: INFO: [ultratb.py:1185]: 
+Unfortunately, your original traceback can not be constructed.
+

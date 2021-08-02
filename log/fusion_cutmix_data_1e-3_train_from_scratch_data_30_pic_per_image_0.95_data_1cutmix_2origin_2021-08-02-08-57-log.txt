@@ -1,0 +1,1 @@
+2021-08-02 09:01:37,670: INFO: [<ipython-input-11-525ae7af34e6>:24]: [Batch: 0/Iter 0] cutmix training loss: 4.57

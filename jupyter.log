@@ -1,0 +1,745 @@
+nohup: ignoring input
+[W 20:59:30.172 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[W 20:59:30.173 NotebookApp] Error loading server extension jupyter_nbextensions_configurator
+    Traceback (most recent call last):
+      File "/home/runji/anaconda3/lib/python3.8/site-packages/notebook/notebookapp.py", line 2033, in init_server_extensions
+        mod = importlib.import_module(modulename)
+      File "/home/runji/anaconda3/lib/python3.8/importlib/__init__.py", line 127, in import_module
+        return _bootstrap._gcd_import(name[level:], package, level)
+      File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 973, in _find_and_load_unlocked
+    ModuleNotFoundError: No module named 'jupyter_nbextensions_configurator'
+[W 2021-08-01 20:59:30.407 LabApp] 'allow_root' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-08-01 20:59:30.407 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-08-01 20:59:30.407 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-08-01 20:59:30.407 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-08-01 20:59:30.407 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-08-01 20:59:30.407 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2021-08-01 20:59:30.411 LabApp] JupyterLab extension loaded from /home/runji/anaconda3/lib/python3.8/site-packages/jupyterlab
+[I 2021-08-01 20:59:30.411 LabApp] JupyterLab application directory is /home/runji/anaconda3/share/jupyter/lab
+[I 20:59:30.414 NotebookApp] Serving notebooks from local directory: /home/runji/Documents/experiment
+[I 20:59:30.414 NotebookApp] Jupyter Notebook 6.3.0 is running at:
+[I 20:59:30.414 NotebookApp] http://runji-System-Product-Name:8883/
+[I 20:59:30.414 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 20:59:31.761 NotebookApp] 404 GET /nbextensions/nbextensions_configurator/config_menu/main.js?v=20210801205929 (::1) 7.010000ms referer=http://localhost:8883/notebooks/continue_train.ipynb
+[I 20:59:31.919 NotebookApp] Kernel started: a4edf703-6c54-44d2-be09-ba44116b017d, name: torch
+[W 20:59:31.945 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20210801205929 (::1) 1.880000ms referer=http://localhost:8883/notebooks/continue_train.ipynb
+[W 20:59:31.951 NotebookApp] 404 GET /static/skill.js?v=20210801205929 (::1) 1.120000ms referer=http://localhost:8883/notebooks/continue_train.ipynb
+[I 21:01:32.301 NotebookApp] Saving file at /continue_train.ipynb
+[W 21:09:02.443 NotebookApp] WebSocket ping timeout after 119998 ms.
+[W 21:09:03.279 NotebookApp] zmq message arrived on closed channel
+[W 21:09:04.958 NotebookApp] zmq message arrived on closed channel
+[W 21:09:06.013 NotebookApp] zmq message arrived on closed channel
+[W 21:09:07.228 NotebookApp] zmq message arrived on closed channel
+[I 21:09:07.507 NotebookApp] Starting buffering for a4edf703-6c54-44d2-be09-ba44116b017d:8c54f68806f443589b43f6b8bf8ce030
+[I 21:20:04.931 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+[I 21:20:10.698 NotebookApp] Discarding 460 buffered messages for a4edf703-6c54-44d2-be09-ba44116b017d:8c54f68806f443589b43f6b8bf8ce030
+[W 21:20:11.388 NotebookApp] 404 GET /nbextensions/nbextensions_configurator/config_menu/main.js?v=20210801205929 (::1) 15.560000ms referer=http://localhost:8883/notebooks/continue_train.ipynb
+[W 21:20:12.381 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20210801205929 (::1) 1.190000ms referer=http://localhost:8883/notebooks/continue_train.ipynb
+[W 21:20:12.382 NotebookApp] 404 GET /static/skill.js?v=20210801205929 (::1) 0.960000ms referer=http://localhost:8883/notebooks/continue_train.ipynb
+[W 21:20:14.097 NotebookApp] 404 GET /nbextensions/nbextensions_configurator/tree_tab/main.js?v=20210801195304 (::1) 1.540000ms referer=http://localhost:8883/tree
+[I 21:20:17.019 NotebookApp] Starting buffering for a4edf703-6c54-44d2-be09-ba44116b017d:b311f81ee0b949ac8b624c5f98cfabd9
+[W 21:20:23.379 NotebookApp] 404 GET /nbextensions/nbextensions_configurator/config_menu/main.js?v=20210801205929 (::1) 2.030000ms referer=http://localhost:8883/notebooks/continue_train.ipynb
+[W 21:20:24.377 NotebookApp] 404 GET /nbextensions/nbextensions_configurator/tree_tab/main.js?v=20210801205929 (::1) 1.110000ms referer=http://localhost:8883/tree/utils
+[W 21:20:24.378 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20210801205929 (::1) 1.360000ms referer=http://localhost:8883/notebooks/continue_train.ipynb
+[W 21:20:24.379 NotebookApp] 404 GET /static/skill.js?v=20210801205929 (::1) 1.780000ms referer=http://localhost:8883/notebooks/continue_train.ipynb
+[I 21:22:31.110 NotebookApp] Saving file at /continue_train.ipynb
+[I 21:24:44.003 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+kernel a4edf703-6c54-44d2-be09-ba44116b017d restarted
+[I 21:24:44.611 NotebookApp] Saving file at /continue_train.ipynb
+[I 21:24:44.686 NotebookApp] Saving file at /continue_train.ipynb
+[I 21:25:29.974 NotebookApp] Starting buffering for a4edf703-6c54-44d2-be09-ba44116b017d:0a7ae0d78831411f8116256cb310aeeb
+[I 21:26:20.835 NotebookApp] 302 GET /tree? (127.0.0.1) 2.370000ms
+[W 21:26:23.896 NotebookApp] 404 GET /nbextensions/nbextensions_configurator/tree_tab/main.js?v=20210801205929 (127.0.0.1) 2.530000ms referer=http://localhost:8883/tree?
+[W 21:26:26.668 NotebookApp] 404 GET /nbextensions/nbextensions_configurator/config_menu/main.js?v=20210801205929 (127.0.0.1) 1.230000ms referer=http://localhost:8883/notebooks/continue_train.ipynb
+[W 21:26:26.867 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20210801205929 (127.0.0.1) 1.530000ms referer=http://localhost:8883/notebooks/continue_train.ipynb
+[W 21:26:26.868 NotebookApp] 404 GET /static/skill.js?v=20210801205929 (127.0.0.1) 1.920000ms referer=http://localhost:8883/notebooks/continue_train.ipynb
+[I 21:26:28.703 NotebookApp] Kernel shutdown: a4edf703-6c54-44d2-be09-ba44116b017d
+[W 21:26:28.917 NotebookApp] 404 DELETE /api/sessions/8507a72b-b64f-4d60-8b6a-1682023b106a (127.0.0.1): Session not found: session_id='8507a72b-b64f-4d60-8b6a-1682023b106a'
+[W 21:26:28.917 NotebookApp] Session not found: session_id='8507a72b-b64f-4d60-8b6a-1682023b106a'
+[W 21:26:28.917 NotebookApp] 404 DELETE /api/sessions/8507a72b-b64f-4d60-8b6a-1682023b106a (127.0.0.1) 1.120000ms referer=http://localhost:8883/notebooks/continue_train.ipynb
+[W 21:26:30.512 NotebookApp] 404 DELETE /api/sessions/8507a72b-b64f-4d60-8b6a-1682023b106a (127.0.0.1): Session not found: session_id='8507a72b-b64f-4d60-8b6a-1682023b106a'
+[W 21:26:30.512 NotebookApp] Session not found: session_id='8507a72b-b64f-4d60-8b6a-1682023b106a'
+[W 21:26:30.513 NotebookApp] 404 DELETE /api/sessions/8507a72b-b64f-4d60-8b6a-1682023b106a (127.0.0.1) 3.280000ms referer=http://localhost:8883/notebooks/continue_train.ipynb
+[I 21:26:30.549 NotebookApp] Kernel started: f1d17b66-16b3-4502-a63d-0ce18aeda359, name: torch
+[I 21:28:26.836 NotebookApp] Saving file at /continue_train.ipynb
+[I 21:30:26.987 NotebookApp] Saving file at /continue_train.ipynb
+[I 21:32:26.966 NotebookApp] Saving file at /continue_train.ipynb
+[I 21:34:26.888 NotebookApp] Saving file at /continue_train.ipynb
+[I 21:36:26.864 NotebookApp] Saving file at /continue_train.ipynb
+[I 21:38:26.878 NotebookApp] Saving file at /continue_train.ipynb
+[I 21:40:26.896 NotebookApp] Saving file at /continue_train.ipynb
+[I 21:42:27.112 NotebookApp] Saving file at /continue_train.ipynb
+[I 21:44:26.980 NotebookApp] Saving file at /continue_train.ipynb
+[I 21:46:26.876 NotebookApp] Saving file at /continue_train.ipynb
+[I 21:48:27.170 NotebookApp] Saving file at /continue_train.ipynb
+[I 21:50:27.004 NotebookApp] Saving file at /continue_train.ipynb
+[I 21:52:26.882 NotebookApp] Saving file at /continue_train.ipynb
+[I 21:54:26.944 NotebookApp] Saving file at /continue_train.ipynb
+[I 21:56:26.920 NotebookApp] Saving file at /continue_train.ipynb
+[I 21:58:27.092 NotebookApp] Saving file at /continue_train.ipynb
+[I 22:00:26.887 NotebookApp] Saving file at /continue_train.ipynb
+[I 22:02:26.890 NotebookApp] Saving file at /continue_train.ipynb
+[I 22:04:26.860 NotebookApp] Saving file at /continue_train.ipynb
+[I 22:13:32.235 NotebookApp] 302 GET / (127.0.0.1) 1.510000ms
+[W 22:13:39.616 NotebookApp] 404 GET /nbextensions/nbextensions_configurator/tree_tab/main.js?v=20210801205929 (127.0.0.1) 10.630000ms referer=http://81.70.246.139:8883/tree?
+[W 22:14:03.979 NotebookApp] 404 GET /nbextensions/nbextensions_configurator/config_menu/main.js?v=20210801205929 (127.0.0.1) 3.650000ms referer=http://81.70.246.139:8883/notebooks/continue_train.ipynb
+[W 22:14:06.685 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20210801205929 (127.0.0.1) 5.120000ms referer=http://81.70.246.139:8883/notebooks/continue_train.ipynb
+[W 22:14:07.059 NotebookApp] 404 GET /static/skill.js?v=20210801205929 (127.0.0.1) 0.880000ms referer=http://81.70.246.139:8883/notebooks/continue_train.ipynb
+[I 22:14:13.919 NotebookApp] New terminal with automatic name: 1
+TermSocket.open: 1
+TermSocket.open: Opened 1
+[I 22:14:45.552 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+kernel f1d17b66-16b3-4502-a63d-0ce18aeda359 restarted
+kernel f1d17b66-16b3-4502-a63d-0ce18aeda359 restarted
+[W 22:19:05.869 NotebookApp] WebSocket ping timeout after 119958 ms.
+[W 22:19:05.964 NotebookApp] zmq message arrived on closed channel
+[W 22:19:07.087 NotebookApp] zmq message arrived on closed channel
+[W 22:19:08.284 NotebookApp] zmq message arrived on closed channel
+[W 22:19:09.405 NotebookApp] zmq message arrived on closed channel
+[W 22:19:10.518 NotebookApp] zmq message arrived on closed channel
+[W 22:19:15.561 NotebookApp] WebSocket ping timeout after 119963 ms.
+Websocket closed
+[I 23:10:12.665 NotebookApp] Saving file at /continue_train.ipynb
+TermSocket.open: 1
+TermSocket.open: Opened 1
+[W 23:10:50.374 NotebookApp] 404 GET /nbextensions/nbextensions_configurator/tree_tab/main.js?v=20210801205929 (127.0.0.1) 2.820000ms referer=http://81.70.246.139:8883/tree?
+Websocket closed
+TermSocket.open: 1
+TermSocket.open: Opened 1
+Websocket closed
+TermSocket.open: 1
+TermSocket.open: Opened 1
+Websocket closed
+TermSocket.open: 1
+TermSocket.open: Opened 1
+Websocket closed
+[I 23:21:38.244 NotebookApp] Kernel shutdown: f1d17b66-16b3-4502-a63d-0ce18aeda359
+[W 23:22:00.876 NotebookApp] 404 GET /nbextensions/nbextensions_configurator/tree_tab/main.js?v=20210801205929 (127.0.0.1) 5.920000ms referer=http://81.70.246.139:8883/tree/utils
+[I 23:22:06.888 NotebookApp] Saving file at /continue_train.ipynb
+[I 23:22:32.852 NotebookApp] Saving file at /utils/config.py
+[E 23:23:18.025 NotebookApp] Exception restarting kernel
+    Traceback (most recent call last):
+      File "/home/runji/anaconda3/lib/python3.8/site-packages/notebook/services/kernels/handlers.py", line 83, in post
+        yield maybe_future(km.restart_kernel(kernel_id))
+      File "/home/runji/anaconda3/lib/python3.8/site-packages/tornado/gen.py", line 762, in run
+        value = future.result()
+      File "/home/runji/anaconda3/lib/python3.8/site-packages/notebook/services/kernels/kernelmanager.py", line 313, in restart_kernel
+        self._check_kernel_id(kernel_id)
+      File "/home/runji/anaconda3/lib/python3.8/site-packages/notebook/services/kernels/kernelmanager.py", line 394, in _check_kernel_id
+        raise web.HTTPError(404, u'Kernel does not exist: %s' % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: f1d17b66-16b3-4502-a63d-0ce18aeda359)
+[E 23:23:18.034 NotebookApp] {
+      "Host": "81.70.246.139:8883",
+      "Connection": "keep-alive",
+      "Content-Length": "0",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Dnt": "1",
+      "X-Requested-With": "XMLHttpRequest",
+      "X-Xsrftoken": "2|9b41bbfa|6529b6ae7382bac6a3204de59f3e4e78|1626966528",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36",
+      "Origin": "http://81.70.246.139:8883",
+      "Referer": "http://81.70.246.139:8883/notebooks/continue_train.ipynb",
+      "Accept-Encoding": "gzip, deflate",
+      "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7,eo;q=0.6",
+      "Cookie": "username-81-70-246-139-8883=\"2|1:0|10:1626501441|27:username-81-70-246-139-8883|44:NDZiMGVlZDViMGMzNDMwYTg0ZDdmZGQ5OGI0ZDU3NGQ=|8bdbf7f5eed21bc8cf0b907e2b55c08ce9737c282fae489e9bef483583574534\"; _xsrf=2|9b41bbfa|6529b6ae7382bac6a3204de59f3e4e78|1626966528"
+    }
+[E 23:23:18.034 NotebookApp] 500 POST /api/kernels/f1d17b66-16b3-4502-a63d-0ce18aeda359/restart (127.0.0.1) 11.150000ms referer=http://81.70.246.139:8883/notebooks/continue_train.ipynb
+[W 23:23:18.143 NotebookApp] 404 DELETE /api/sessions/9284f97c-58c3-4e58-988a-20bf3097f48a (127.0.0.1): Session not found: session_id='9284f97c-58c3-4e58-988a-20bf3097f48a'
+[W 23:23:18.144 NotebookApp] Session not found: session_id='9284f97c-58c3-4e58-988a-20bf3097f48a'
+[W 23:23:18.145 NotebookApp] 404 DELETE /api/sessions/9284f97c-58c3-4e58-988a-20bf3097f48a (127.0.0.1) 3.560000ms referer=http://81.70.246.139:8883/notebooks/continue_train.ipynb
+[I 23:23:18.291 NotebookApp] Kernel started: 9bde1d2e-89cd-43e3-911c-50d6301d0109, name: torch
+[I 23:24:05.850 NotebookApp] Saving file at /continue_train.ipynb
+[I 23:26:05.805 NotebookApp] Saving file at /continue_train.ipynb
+[I 23:28:05.796 NotebookApp] Saving file at /continue_train.ipynb
+[I 23:28:27.521 NotebookApp] Starting buffering for 9bde1d2e-89cd-43e3-911c-50d6301d0109:f7ac5252a96843ab89d95c76a1def7de
+[I 23:32:15.017 NotebookApp] Restoring connection for 9bde1d2e-89cd-43e3-911c-50d6301d0109:f7ac5252a96843ab89d95c76a1def7de
+[I 23:32:15.017 NotebookApp] Replaying 161 buffered messages
+[I 23:32:15.931 NotebookApp] Saving file at /continue_train.ipynb
+[I 23:32:28.950 NotebookApp] Starting buffering for 9bde1d2e-89cd-43e3-911c-50d6301d0109:f7ac5252a96843ab89d95c76a1def7de
+[I 00:10:16.435 NotebookApp] Restoring connection for 9bde1d2e-89cd-43e3-911c-50d6301d0109:f7ac5252a96843ab89d95c76a1def7de
+[I 00:10:16.460 NotebookApp] Replaying 1042 buffered messages
+[I 00:10:17.531 NotebookApp] Saving file at /continue_train.ipynb
+[W 00:11:46.441 NotebookApp] WebSocket ping timeout after 90006 ms.
+[I 00:11:51.454 NotebookApp] Starting buffering for 9bde1d2e-89cd-43e3-911c-50d6301d0109:f7ac5252a96843ab89d95c76a1def7de
+[I 00:19:08.407 NotebookApp] Kernel interrupted: 9bde1d2e-89cd-43e3-911c-50d6301d0109
+[I 00:19:32.706 NotebookApp] Kernel restarted: 9bde1d2e-89cd-43e3-911c-50d6301d0109
+[I 00:19:32.717 NotebookApp] New terminal with automatic name: 2
+[I 00:19:32.902 NotebookApp] Restoring connection for 9bde1d2e-89cd-43e3-911c-50d6301d0109:f7ac5252a96843ab89d95c76a1def7de
+[I 00:19:33.241 NotebookApp] Replaying 3 buffered messages
+TermSocket.open: 2
+TermSocket.open: Opened 2
+[I 00:20:05.879 NotebookApp] Saving file at /continue_train.ipynb
+[I 00:22:05.808 NotebookApp] Saving file at /continue_train.ipynb
+[I 00:24:05.829 NotebookApp] Saving file at /continue_train.ipynb
+[I 00:26:05.861 NotebookApp] Saving file at /continue_train.ipynb
+[I 00:28:05.798 NotebookApp] Saving file at /continue_train.ipynb
+[I 00:30:05.843 NotebookApp] Saving file at /continue_train.ipynb
+[I 00:32:05.834 NotebookApp] Saving file at /continue_train.ipynb
+[I 00:34:05.845 NotebookApp] Saving file at /continue_train.ipynb
+[I 00:36:05.848 NotebookApp] Saving file at /continue_train.ipynb
+[I 00:38:05.819 NotebookApp] Saving file at /continue_train.ipynb
+[I 00:40:06.940 NotebookApp] Saving file at /continue_train.ipynb
+[I 00:42:06.801 NotebookApp] Saving file at /continue_train.ipynb
+[I 00:44:06.782 NotebookApp] Saving file at /continue_train.ipynb
+[I 00:46:06.775 NotebookApp] Saving file at /continue_train.ipynb
+[I 00:48:06.823 NotebookApp] Saving file at /continue_train.ipynb
+[I 00:50:06.846 NotebookApp] Saving file at /continue_train.ipynb
+[W 00:52:02.904 NotebookApp] WebSocket ping timeout after 119842 ms.
+[W 00:52:03.227 NotebookApp] zmq message arrived on closed channel
+[W 00:52:04.346 NotebookApp] WebSocket ping timeout after 119940 ms.
+[W 00:52:05.178 NotebookApp] zmq message arrived on closed channel
+[W 00:52:07.021 NotebookApp] zmq message arrived on closed channel
+[I 00:52:07.927 NotebookApp] Starting buffering for 9bde1d2e-89cd-43e3-911c-50d6301d0109:f7ac5252a96843ab89d95c76a1def7de
+Websocket closed
+[I 01:07:09.540 NotebookApp] Saving file at /continue_train.ipynb
+[I 01:07:17.457 NotebookApp] Restoring connection for 9bde1d2e-89cd-43e3-911c-50d6301d0109:f7ac5252a96843ab89d95c76a1def7de
+[I 01:07:17.483 NotebookApp] Replaying 187 buffered messages
+TermSocket.open: 2
+TermSocket.open: Opened 2
+Websocket closed
+[I 01:07:39.367 NotebookApp] New terminal with automatic name: 3
+TermSocket.open: 3
+TermSocket.open: Opened 3
+[I 01:08:05.879 NotebookApp] Saving file at /continue_train.ipynb
+[I 01:09:10.798 NotebookApp] Kernel interrupted: 9bde1d2e-89cd-43e3-911c-50d6301d0109
+[W 01:11:40.899 NotebookApp] WebSocket ping timeout after 119735 ms.
+Exception in callback BaseAsyncIOLoop._handle_events(28, 1)
+handle: <Handle BaseAsyncIOLoop._handle_events(28, 1)>
+Traceback (most recent call last):
+  File "/home/runji/anaconda3/lib/python3.8/asyncio/events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/runji/anaconda3/lib/python3.8/site-packages/tornado/platform/asyncio.py", line 189, in _handle_events
+    handler_func(fileobj, events)
+  File "/home/runji/anaconda3/lib/python3.8/site-packages/terminado/management.py", line 223, in pty_read
+    client.on_pty_read(s)
+  File "/home/runji/anaconda3/lib/python3.8/site-packages/terminado/websocket.py", line 73, in on_pty_read
+    self.send_json_message(['stdout', text])
+  File "/home/runji/anaconda3/lib/python3.8/site-packages/terminado/websocket.py", line 77, in send_json_message
+    self.write_message(json_msg)
+  File "/home/runji/anaconda3/lib/python3.8/site-packages/notebook/terminal/handlers.py", line 70, in write_message
+    super().write_message(message, binary=binary)
+  File "/home/runji/anaconda3/lib/python3.8/site-packages/tornado/websocket.py", line 337, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Exception in callback BaseAsyncIOLoop._handle_events(28, 1)
+handle: <Handle BaseAsyncIOLoop._handle_events(28, 1)>
+Traceback (most recent call last):
+  File "/home/runji/anaconda3/lib/python3.8/asyncio/events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/runji/anaconda3/lib/python3.8/site-packages/tornado/platform/asyncio.py", line 189, in _handle_events
+    handler_func(fileobj, events)
+  File "/home/runji/anaconda3/lib/python3.8/site-packages/terminado/management.py", line 223, in pty_read
+    client.on_pty_read(s)
+  File "/home/runji/anaconda3/lib/python3.8/site-packages/terminado/websocket.py", line 73, in on_pty_read
+    self.send_json_message(['stdout', text])
+  File "/home/runji/anaconda3/lib/python3.8/site-packages/terminado/websocket.py", line 77, in send_json_message
+    self.write_message(json_msg)
+  File "/home/runji/anaconda3/lib/python3.8/site-packages/notebook/terminal/handlers.py", line 70, in write_message
+    super().write_message(message, binary=binary)
+  File "/home/runji/anaconda3/lib/python3.8/site-packages/tornado/websocket.py", line 337, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Exception in callback BaseAsyncIOLoop._handle_events(28, 1)
+handle: <Handle BaseAsyncIOLoop._handle_events(28, 1)>
+Traceback (most recent call last):
+  File "/home/runji/anaconda3/lib/python3.8/asyncio/events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/runji/anaconda3/lib/python3.8/site-packages/tornado/platform/asyncio.py", line 189, in _handle_events
+    handler_func(fileobj, events)
+  File "/home/runji/anaconda3/lib/python3.8/site-packages/terminado/management.py", line 223, in pty_read
+    client.on_pty_read(s)
+  File "/home/runji/anaconda3/lib/python3.8/site-packages/terminado/websocket.py", line 73, in on_pty_read
+    self.send_json_message(['stdout', text])
+  File "/home/runji/anaconda3/lib/python3.8/site-packages/terminado/websocket.py", line 77, in send_json_message
+    self.write_message(json_msg)
+  File "/home/runji/anaconda3/lib/python3.8/site-packages/notebook/terminal/handlers.py", line 70, in write_message
+    super().write_message(message, binary=binary)
+  File "/home/runji/anaconda3/lib/python3.8/site-packages/tornado/websocket.py", line 337, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Exception in callback BaseAsyncIOLoop._handle_events(28, 1)
+handle: <Handle BaseAsyncIOLoop._handle_events(28, 1)>
+Traceback (most recent call last):
+  File "/home/runji/anaconda3/lib/python3.8/asyncio/events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/runji/anaconda3/lib/python3.8/site-packages/tornado/platform/asyncio.py", line 189, in _handle_events
+    handler_func(fileobj, events)
+  File "/home/runji/anaconda3/lib/python3.8/site-packages/terminado/management.py", line 223, in pty_read
+    client.on_pty_read(s)
+  File "/home/runji/anaconda3/lib/python3.8/site-packages/terminado/websocket.py", line 73, in on_pty_read
+    self.send_json_message(['stdout', text])
+  File "/home/runji/anaconda3/lib/python3.8/site-packages/terminado/websocket.py", line 77, in send_json_message
+    self.write_message(json_msg)
+  File "/home/runji/anaconda3/lib/python3.8/site-packages/notebook/terminal/handlers.py", line 70, in write_message
+    super().write_message(message, binary=binary)
+  File "/home/runji/anaconda3/lib/python3.8/site-packages/tornado/websocket.py", line 337, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Exception in callback BaseAsyncIOLoop._handle_events(28, 1)
+handle: <Handle BaseAsyncIOLoop._handle_events(28, 1)>
+Traceback (most recent call last):
+  File "/home/runji/anaconda3/lib/python3.8/asyncio/events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/runji/anaconda3/lib/python3.8/site-packages/tornado/platform/asyncio.py", line 189, in _handle_events
+    handler_func(fileobj, events)
+  File "/home/runji/anaconda3/lib/python3.8/site-packages/terminado/management.py", line 223, in pty_read
+    client.on_pty_read(s)
+  File "/home/runji/anaconda3/lib/python3.8/site-packages/terminado/websocket.py", line 73, in on_pty_read
+    self.send_json_message(['stdout', text])
+  File "/home/runji/anaconda3/lib/python3.8/site-packages/terminado/websocket.py", line 77, in send_json_message
+    self.write_message(json_msg)
+  File "/home/runji/anaconda3/lib/python3.8/site-packages/notebook/terminal/handlers.py", line 70, in write_message
+    super().write_message(message, binary=binary)
+  File "/home/runji/anaconda3/lib/python3.8/site-packages/tornado/websocket.py", line 337, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Exception in callback BaseAsyncIOLoop._handle_events(28, 1)
+handle: <Handle BaseAsyncIOLoop._handle_events(28, 1)>
+Traceback (most recent call last):
+  File "/home/runji/anaconda3/lib/python3.8/asyncio/events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/runji/anaconda3/lib/python3.8/site-packages/tornado/platform/asyncio.py", line 189, in _handle_events
+    handler_func(fileobj, events)
+  File "/home/runji/anaconda3/lib/python3.8/site-packages/terminado/management.py", line 223, in pty_read
+    client.on_pty_read(s)
+  File "/home/runji/anaconda3/lib/python3.8/site-packages/terminado/websocket.py", line 73, in on_pty_read
+    self.send_json_message(['stdout', text])
+  File "/home/runji/anaconda3/lib/python3.8/site-packages/terminado/websocket.py", line 77, in send_json_message
+    self.write_message(json_msg)
+  File "/home/runji/anaconda3/lib/python3.8/site-packages/notebook/terminal/handlers.py", line 70, in write_message
+    super().write_message(message, binary=binary)
+  File "/home/runji/anaconda3/lib/python3.8/site-packages/tornado/websocket.py", line 337, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Websocket closed
+[W 01:11:47.458 NotebookApp] WebSocket ping timeout after 119832 ms.
+[W 01:11:47.660 NotebookApp] zmq message arrived on closed channel
+[W 01:11:47.868 NotebookApp] zmq message arrived on closed channel
+[W 01:11:48.072 NotebookApp] zmq message arrived on closed channel
+[W 01:11:48.276 NotebookApp] zmq message arrived on closed channel
+[W 01:11:48.480 NotebookApp] zmq message arrived on closed channel
+[W 01:11:48.684 NotebookApp] zmq message arrived on closed channel
+[W 01:11:48.888 NotebookApp] zmq message arrived on closed channel
+[W 01:11:48.900 NotebookApp] zmq message arrived on closed channel
+[W 01:11:48.912 NotebookApp] zmq message arrived on closed channel
+[W 01:11:48.924 NotebookApp] zmq message arrived on closed channel
+[W 01:11:48.967 NotebookApp] zmq message arrived on closed channel
+[W 01:11:49.098 NotebookApp] zmq message arrived on closed channel
+[W 01:11:49.225 NotebookApp] zmq message arrived on closed channel
+[W 01:11:49.371 NotebookApp] zmq message arrived on closed channel
+[W 01:11:49.520 NotebookApp] zmq message arrived on closed channel
+[W 01:11:49.646 NotebookApp] zmq message arrived on closed channel
+[W 01:11:49.776 NotebookApp] zmq message arrived on closed channel
+[W 01:11:49.980 NotebookApp] zmq message arrived on closed channel
+[W 01:11:50.184 NotebookApp] zmq message arrived on closed channel
+[W 01:11:50.388 NotebookApp] zmq message arrived on closed channel
+[W 01:11:50.592 NotebookApp] zmq message arrived on closed channel
+[W 01:11:50.796 NotebookApp] zmq message arrived on closed channel
+[W 01:11:51.000 NotebookApp] zmq message arrived on closed channel
+[W 01:11:51.204 NotebookApp] zmq message arrived on closed channel
+[W 01:11:51.408 NotebookApp] zmq message arrived on closed channel
+[W 01:11:51.612 NotebookApp] zmq message arrived on closed channel
+[W 01:11:51.816 NotebookApp] zmq message arrived on closed channel
+[W 01:11:52.024 NotebookApp] zmq message arrived on closed channel
+[W 01:11:52.036 NotebookApp] zmq message arrived on closed channel
+[W 01:11:52.048 NotebookApp] zmq message arrived on closed channel
+[W 01:11:52.060 NotebookApp] zmq message arrived on closed channel
+[W 01:11:52.072 NotebookApp] zmq message arrived on closed channel
+[W 01:11:52.084 NotebookApp] zmq message arrived on closed channel
+[W 01:11:52.096 NotebookApp] zmq message arrived on closed channel
+[W 01:11:52.242 NotebookApp] zmq message arrived on closed channel
+[W 01:11:52.382 NotebookApp] zmq message arrived on closed channel
+[W 01:11:52.521 NotebookApp] zmq message arrived on closed channel
+[W 01:11:52.724 NotebookApp] zmq message arrived on closed channel
+[W 01:11:52.928 NotebookApp] zmq message arrived on closed channel
+[I 01:11:53.136 NotebookApp] Starting buffering for 9bde1d2e-89cd-43e3-911c-50d6301d0109:f7ac5252a96843ab89d95c76a1def7de
+[I 01:50:50.712 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+Traceback (most recent call last):
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/ipykernel_launcher.py", line 16, in <module>
+    app.launch_new_instance()
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/traitlets/config/application.py", line 663, in launch_instance
+    app.initialize(argv)
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/decorator.py", line 232, in fun
+    return caller(func, *(extras + args), **kw)
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/traitlets/config/application.py", line 87, in catch_config_error
+    return method(app, *args, **kwargs)
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/ipykernel/kernelapp.py", line 567, in initialize
+    self.init_sockets()
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/ipykernel/kernelapp.py", line 271, in init_sockets
+    self.shell_port = self._bind_socket(self.shell_socket, self.shell_port)
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/ipykernel/kernelapp.py", line 218, in _bind_socket
+    return self._try_bind_socket(s, port)
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/ipykernel/kernelapp.py", line 194, in _try_bind_socket
+    s.bind("tcp://%s:%i" % (self.ip, port))
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/zmq/sugar/socket.py", line 173, in bind
+    super().bind(addr)
+  File "zmq/backend/cython/socket.pyx", line 542, in zmq.backend.cython.socket.Socket.bind
+  File "zmq/backend/cython/checkrc.pxd", line 28, in zmq.backend.cython.checkrc._check_rc
+zmq.error.ZMQError: Address already in use
+[I 01:50:53.735 NotebookApp] KernelRestarter: restarting kernel (2/5), keep random ports
+Traceback (most recent call last):
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/ipykernel_launcher.py", line 16, in <module>
+    app.launch_new_instance()
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/traitlets/config/application.py", line 663, in launch_instance
+    app.initialize(argv)
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/decorator.py", line 232, in fun
+    return caller(func, *(extras + args), **kw)
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/traitlets/config/application.py", line 87, in catch_config_error
+    return method(app, *args, **kwargs)
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/ipykernel/kernelapp.py", line 567, in initialize
+    self.init_sockets()
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/ipykernel/kernelapp.py", line 271, in init_sockets
+    self.shell_port = self._bind_socket(self.shell_socket, self.shell_port)
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/ipykernel/kernelapp.py", line 218, in _bind_socket
+    return self._try_bind_socket(s, port)
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/ipykernel/kernelapp.py", line 194, in _try_bind_socket
+    s.bind("tcp://%s:%i" % (self.ip, port))
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/zmq/sugar/socket.py", line 173, in bind
+    super().bind(addr)
+  File "zmq/backend/cython/socket.pyx", line 542, in zmq.backend.cython.socket.Socket.bind
+  File "zmq/backend/cython/checkrc.pxd", line 28, in zmq.backend.cython.checkrc._check_rc
+zmq.error.ZMQError: Address already in use
+[I 01:50:56.742 NotebookApp] KernelRestarter: restarting kernel (3/5), keep random ports
+Traceback (most recent call last):
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/ipykernel_launcher.py", line 16, in <module>
+    app.launch_new_instance()
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/traitlets/config/application.py", line 663, in launch_instance
+    app.initialize(argv)
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/decorator.py", line 232, in fun
+    return caller(func, *(extras + args), **kw)
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/traitlets/config/application.py", line 87, in catch_config_error
+    return method(app, *args, **kwargs)
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/ipykernel/kernelapp.py", line 567, in initialize
+    self.init_sockets()
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/ipykernel/kernelapp.py", line 271, in init_sockets
+    self.shell_port = self._bind_socket(self.shell_socket, self.shell_port)
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/ipykernel/kernelapp.py", line 218, in _bind_socket
+    return self._try_bind_socket(s, port)
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/ipykernel/kernelapp.py", line 194, in _try_bind_socket
+    s.bind("tcp://%s:%i" % (self.ip, port))
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/zmq/sugar/socket.py", line 173, in bind
+    super().bind(addr)
+  File "zmq/backend/cython/socket.pyx", line 542, in zmq.backend.cython.socket.Socket.bind
+  File "zmq/backend/cython/checkrc.pxd", line 28, in zmq.backend.cython.checkrc._check_rc
+zmq.error.ZMQError: Address already in use
+[I 01:50:59.750 NotebookApp] KernelRestarter: restarting kernel (4/5), keep random ports
+Traceback (most recent call last):
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/ipykernel_launcher.py", line 16, in <module>
+    app.launch_new_instance()
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/traitlets/config/application.py", line 663, in launch_instance
+    app.initialize(argv)
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/decorator.py", line 232, in fun
+    return caller(func, *(extras + args), **kw)
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/traitlets/config/application.py", line 87, in catch_config_error
+    return method(app, *args, **kwargs)
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/ipykernel/kernelapp.py", line 567, in initialize
+    self.init_sockets()
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/ipykernel/kernelapp.py", line 271, in init_sockets
+    self.shell_port = self._bind_socket(self.shell_socket, self.shell_port)
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/ipykernel/kernelapp.py", line 218, in _bind_socket
+    return self._try_bind_socket(s, port)
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/ipykernel/kernelapp.py", line 194, in _try_bind_socket
+    s.bind("tcp://%s:%i" % (self.ip, port))
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/zmq/sugar/socket.py", line 173, in bind
+    super().bind(addr)
+  File "zmq/backend/cython/socket.pyx", line 542, in zmq.backend.cython.socket.Socket.bind
+  File "zmq/backend/cython/checkrc.pxd", line 28, in zmq.backend.cython.checkrc._check_rc
+zmq.error.ZMQError: Address already in use
+[W 01:51:02.757 NotebookApp] KernelRestarter: restart failed
+[W 01:51:02.759 NotebookApp] Kernel 9bde1d2e-89cd-43e3-911c-50d6301d0109 died, removing from map.
+[I 08:22:35.666 NotebookApp] 302 GET / (127.0.0.1) 7.370000ms
+[I 08:22:35.742 NotebookApp] 302 GET /tree? (127.0.0.1) 4.750000ms
+[I 08:22:40.517 NotebookApp] 302 POST /login?next=%2Ftree%3F (127.0.0.1) 74.160000ms
+[W 08:22:41.213 NotebookApp] 404 GET /nbextensions/nbextensions_configurator/tree_tab/main.js?v=20210801205929 (127.0.0.1) 1.460000ms referer=http://81.70.246.139:8883/tree?
+[I 08:22:51.373 NotebookApp] New terminal with automatic name: 4
+TermSocket.open: 4
+TermSocket.open: Opened 4
+[W 08:25:23.235 NotebookApp] WebSocket ping timeout after 119916 ms.
+Websocket closed
+[I 08:51:10.551 NotebookApp] 302 GET / (::1) 0.490000ms
+[W 08:51:10.762 NotebookApp] 404 GET /nbextensions/nbextensions_configurator/tree_tab/main.js?v=20210801205929 (::1) 1.170000ms referer=http://localhost:8883/tree?
+[W 08:51:14.965 NotebookApp] 404 GET /nbextensions/nbextensions_configurator/config_menu/main.js?v=20210801205929 (::1) 2.530000ms referer=http://localhost:8883/notebooks/continue_train.ipynb
+[I 08:51:15.104 NotebookApp] Kernel started: b16a26c7-8b47-4364-bcde-11de8a1ac973, name: torch
+[W 08:51:15.187 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20210801205929 (::1) 1.380000ms referer=http://localhost:8883/notebooks/continue_train.ipynb
+[W 08:51:15.207 NotebookApp] 404 GET /static/skill.js?v=20210801205929 (::1) 1.400000ms referer=http://localhost:8883/notebooks/continue_train.ipynb
+[I 08:53:15.112 NotebookApp] Saving file at /continue_train.ipynb
+[I 08:57:15.124 NotebookApp] Saving file at /continue_train.ipynb
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/jedi/cache.py", line 109, in wrapper
+    return dct[key]
+KeyError: ((), frozenset())
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/jedi/cache.py", line 109, in wrapper
+    return dct[key]
+KeyError: ((), frozenset())
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/ipykernel/kernelbase.py", line 268, in dispatch_shell
+    yield gen.maybe_future(handler(stream, idents, msg))
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/tornado/gen.py", line 762, in run
+    value = future.result()
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/tornado/gen.py", line 234, in wrapper
+    yielded = ctx_run(next, result)
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/tornado/gen.py", line 162, in _fake_ctx_run
+    return f(*args, **kw)
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/ipykernel/kernelbase.py", line 583, in complete_request
+    matches = yield gen.maybe_future(self.do_complete(code, cursor_pos))
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/ipykernel/ipkernel.py", line 360, in do_complete
+    return self._experimental_do_complete(code, cursor_pos)
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/ipykernel/ipkernel.py", line 385, in _experimental_do_complete
+    completions = list(_rectify_completions(code, raw_completions))
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/IPython/core/completer.py", line 484, in rectify_completions
+    completions = list(completions)
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/IPython/core/completer.py", line 1818, in completions
+    for c in self._completions(text, offset, _timeout=self.jedi_compute_type_timeout/1000):
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/IPython/core/completer.py", line 1875, in _completions
+    signature = _make_signature(jm)
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/IPython/core/completer.py", line 991, in _make_signature
+    return '(%s)'% ', '.join([f for f in (_formatparamchildren(p) for p in completion.params) if f])
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/jedi/cache.py", line 111, in wrapper
+    result = method(self, *args, **kwargs)
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/jedi/api/classes.py", line 479, in params
+    for signature in self._get_signatures():
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/jedi/api/classes.py", line 561, in _get_signatures
+    return [sig for name in names for sig in name.infer().get_signatures()]
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/jedi/api/classes.py", line 561, in <listcomp>
+    return [sig for name in names for sig in name.infer().get_signatures()]
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/jedi/cache.py", line 111, in wrapper
+    result = method(self, *args, **kwargs)
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/jedi/inference/compiled/mixed.py", line 129, in infer
+    return _create(self._inference_state, compiled_value, module_context)
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/jedi/inference/cache.py", line 43, in wrapper
+    rv = function(obj, *args, **kwargs)
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/jedi/inference/compiled/mixed.py", line 257, in _create
+    result = _find_syntax_node_name(inference_state, python_object)
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/jedi/inference/compiled/mixed.py", line 237, in _find_syntax_node_name
+    code_lines = get_cached_code_lines(inference_state.grammar, path)
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/jedi/parser_utils.py", line 280, in get_cached_code_lines
+    return parser_cache[grammar._hashed][path].lines
+KeyError: '/home/runji/Documents/experiment/data/dataset.py'
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/jedi/cache.py", line 109, in wrapper
+    return dct[key]
+KeyError: ((), frozenset())
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/jedi/cache.py", line 109, in wrapper
+    return dct[key]
+KeyError: ((), frozenset())
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/ipykernel/kernelbase.py", line 268, in dispatch_shell
+    yield gen.maybe_future(handler(stream, idents, msg))
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/tornado/gen.py", line 762, in run
+    value = future.result()
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/tornado/gen.py", line 234, in wrapper
+    yielded = ctx_run(next, result)
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/tornado/gen.py", line 162, in _fake_ctx_run
+    return f(*args, **kw)
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/ipykernel/kernelbase.py", line 583, in complete_request
+    matches = yield gen.maybe_future(self.do_complete(code, cursor_pos))
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/ipykernel/ipkernel.py", line 360, in do_complete
+    return self._experimental_do_complete(code, cursor_pos)
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/ipykernel/ipkernel.py", line 385, in _experimental_do_complete
+    completions = list(_rectify_completions(code, raw_completions))
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/IPython/core/completer.py", line 484, in rectify_completions
+    completions = list(completions)
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/IPython/core/completer.py", line 1818, in completions
+    for c in self._completions(text, offset, _timeout=self.jedi_compute_type_timeout/1000):
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/IPython/core/completer.py", line 1875, in _completions
+    signature = _make_signature(jm)
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/IPython/core/completer.py", line 991, in _make_signature
+    return '(%s)'% ', '.join([f for f in (_formatparamchildren(p) for p in completion.params) if f])
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/jedi/cache.py", line 111, in wrapper
+    result = method(self, *args, **kwargs)
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/jedi/api/classes.py", line 479, in params
+    for signature in self._get_signatures():
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/jedi/api/classes.py", line 561, in _get_signatures
+    return [sig for name in names for sig in name.infer().get_signatures()]
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/jedi/api/classes.py", line 561, in <listcomp>
+    return [sig for name in names for sig in name.infer().get_signatures()]
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/jedi/cache.py", line 111, in wrapper
+    result = method(self, *args, **kwargs)
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/jedi/inference/compiled/mixed.py", line 129, in infer
+    return _create(self._inference_state, compiled_value, module_context)
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/jedi/inference/cache.py", line 43, in wrapper
+    rv = function(obj, *args, **kwargs)
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/jedi/inference/compiled/mixed.py", line 257, in _create
+    result = _find_syntax_node_name(inference_state, python_object)
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/jedi/inference/compiled/mixed.py", line 237, in _find_syntax_node_name
+    code_lines = get_cached_code_lines(inference_state.grammar, path)
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/jedi/parser_utils.py", line 280, in get_cached_code_lines
+    return parser_cache[grammar._hashed][path].lines
+KeyError: '/home/runji/Documents/experiment/utils/eval_tool.py'
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/jedi/cache.py", line 109, in wrapper
+    return dct[key]
+KeyError: ((), frozenset())
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/jedi/cache.py", line 109, in wrapper
+    return dct[key]
+KeyError: ((), frozenset())
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/ipykernel/kernelbase.py", line 268, in dispatch_shell
+    yield gen.maybe_future(handler(stream, idents, msg))
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/tornado/gen.py", line 762, in run
+    value = future.result()
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/tornado/gen.py", line 234, in wrapper
+    yielded = ctx_run(next, result)
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/tornado/gen.py", line 162, in _fake_ctx_run
+    return f(*args, **kw)
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/ipykernel/kernelbase.py", line 583, in complete_request
+    matches = yield gen.maybe_future(self.do_complete(code, cursor_pos))
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/ipykernel/ipkernel.py", line 360, in do_complete
+    return self._experimental_do_complete(code, cursor_pos)
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/ipykernel/ipkernel.py", line 385, in _experimental_do_complete
+    completions = list(_rectify_completions(code, raw_completions))
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/IPython/core/completer.py", line 484, in rectify_completions
+    completions = list(completions)
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/IPython/core/completer.py", line 1818, in completions
+    for c in self._completions(text, offset, _timeout=self.jedi_compute_type_timeout/1000):
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/IPython/core/completer.py", line 1875, in _completions
+    signature = _make_signature(jm)
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/IPython/core/completer.py", line 991, in _make_signature
+    return '(%s)'% ', '.join([f for f in (_formatparamchildren(p) for p in completion.params) if f])
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/jedi/cache.py", line 111, in wrapper
+    result = method(self, *args, **kwargs)
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/jedi/api/classes.py", line 479, in params
+    for signature in self._get_signatures():
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/jedi/api/classes.py", line 561, in _get_signatures
+    return [sig for name in names for sig in name.infer().get_signatures()]
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/jedi/api/classes.py", line 561, in <listcomp>
+    return [sig for name in names for sig in name.infer().get_signatures()]
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/jedi/cache.py", line 111, in wrapper
+    result = method(self, *args, **kwargs)
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/jedi/inference/compiled/mixed.py", line 129, in infer
+    return _create(self._inference_state, compiled_value, module_context)
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/jedi/inference/cache.py", line 43, in wrapper
+    rv = function(obj, *args, **kwargs)
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/jedi/inference/compiled/mixed.py", line 257, in _create
+    result = _find_syntax_node_name(inference_state, python_object)
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/jedi/inference/compiled/mixed.py", line 237, in _find_syntax_node_name
+    code_lines = get_cached_code_lines(inference_state.grammar, path)
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/jedi/parser_utils.py", line 280, in get_cached_code_lines
+    return parser_cache[grammar._hashed][path].lines
+KeyError: '/home/runji/Documents/experiment/data/dataset.py'
+[I 08:59:15.127 NotebookApp] Saving file at /continue_train.ipynb
+[I 09:01:15.120 NotebookApp] Saving file at /continue_train.ipynb
+[I 09:03:15.376 NotebookApp] Saving file at /continue_train.ipynb
+[I 09:03:20.767 NotebookApp] Kernel interrupted: b16a26c7-8b47-4364-bcde-11de8a1ac973
+[I 09:03:24.778 NotebookApp] Starting buffering for b16a26c7-8b47-4364-bcde-11de8a1ac973:8dfe5c96b01f46fb9451c0ea663aebcd
+Traceback (most recent call last):
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/ipykernel_launcher.py", line 16, in <module>
+    app.launch_new_instance()
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/traitlets/config/application.py", line 664, in launch_instance
+    app.start()
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/ipykernel/kernelapp.py", line 612, in start
+    self.io_loop.start()
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/tornado/platform/asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/asyncio/base_events.py", line 442, in run_forever
+    self._run_once()
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/asyncio/base_events.py", line 1426, in _run_once
+    event_list = self._selector.select(timeout)
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/selectors.py", line 445, in select
+    fd_event_list = self._epoll.poll(timeout, max_ev)
+  File "/home/runji/anaconda3/envs/torch/lib/python3.6/site-packages/torch/utils/data/_utils/signal_handling.py", line 66, in handler
+    _error_if_any_worker_fails()
+RuntimeError: DataLoader worker (pid 24336) exited unexpectedly with exit code 1. Details are lost due to multiprocessing. Rerunning with num_workers=0 may give better error trace.
+[I 09:03:25.497 NotebookApp] Kernel restarted: b16a26c7-8b47-4364-bcde-11de8a1ac973
+[E 09:03:25.504 NotebookApp] Uncaught exception in ZMQStream callback
+    Traceback (most recent call last):
+      File "/home/runji/anaconda3/lib/python3.8/site-packages/zmq/eventloop/zmqstream.py", line 444, in _run_callback
+        callback(*args, **kwargs)
+      File "/home/runji/anaconda3/lib/python3.8/site-packages/notebook/services/kernels/kernelmanager.py", line 418, in record_activity
+        msg = session.deserialize(fed_msg_list)
+      File "/home/runji/anaconda3/lib/python3.8/site-packages/jupyter_client/session.py", line 923, in deserialize
+        raise ValueError("Duplicate Signature: %r" % signature)
+    ValueError: Duplicate Signature: b'9b8f23da66766e8a563561141e6926fff5e7ff07f2c11157cbdbb044da6cef1b'
+[E 09:03:25.508 NotebookApp] Uncaught exception in zmqstream callback
+    Traceback (most recent call last):
+      File "/home/runji/anaconda3/lib/python3.8/site-packages/zmq/eventloop/zmqstream.py", line 462, in _handle_events
+        self._handle_recv()
+      File "/home/runji/anaconda3/lib/python3.8/site-packages/zmq/eventloop/zmqstream.py", line 492, in _handle_recv
+        self._run_callback(callback, msg)
+      File "/home/runji/anaconda3/lib/python3.8/site-packages/zmq/eventloop/zmqstream.py", line 444, in _run_callback
+        callback(*args, **kwargs)
+      File "/home/runji/anaconda3/lib/python3.8/site-packages/notebook/services/kernels/kernelmanager.py", line 418, in record_activity
+        msg = session.deserialize(fed_msg_list)
+      File "/home/runji/anaconda3/lib/python3.8/site-packages/jupyter_client/session.py", line 923, in deserialize
+        raise ValueError("Duplicate Signature: %r" % signature)
+    ValueError: Duplicate Signature: b'9b8f23da66766e8a563561141e6926fff5e7ff07f2c11157cbdbb044da6cef1b'
+[E 09:03:25.508 NotebookApp] Exception in callback functools.partial(<function ZMQStream._update_handler.<locals>.<lambda> at 0x7ff058ecb280>)
+    Traceback (most recent call last):
+      File "/home/runji/anaconda3/lib/python3.8/site-packages/tornado/ioloop.py", line 741, in _run_callback
+        ret = callback()
+      File "/home/runji/anaconda3/lib/python3.8/site-packages/zmq/eventloop/zmqstream.py", line 548, in <lambda>
+        self.io_loop.add_callback(lambda : self._handle_events(self.socket, 0))
+      File "/home/runji/anaconda3/lib/python3.8/site-packages/zmq/eventloop/zmqstream.py", line 462, in _handle_events
+        self._handle_recv()
+      File "/home/runji/anaconda3/lib/python3.8/site-packages/zmq/eventloop/zmqstream.py", line 492, in _handle_recv
+        self._run_callback(callback, msg)
+      File "/home/runji/anaconda3/lib/python3.8/site-packages/zmq/eventloop/zmqstream.py", line 444, in _run_callback
+        callback(*args, **kwargs)
+      File "/home/runji/anaconda3/lib/python3.8/site-packages/notebook/services/kernels/kernelmanager.py", line 418, in record_activity
+        msg = session.deserialize(fed_msg_list)
+      File "/home/runji/anaconda3/lib/python3.8/site-packages/jupyter_client/session.py", line 923, in deserialize
+        raise ValueError("Duplicate Signature: %r" % signature)
+    ValueError: Duplicate Signature: b'9b8f23da66766e8a563561141e6926fff5e7ff07f2c11157cbdbb044da6cef1b'
+[I 09:03:25.513 NotebookApp] Restoring connection for b16a26c7-8b47-4364-bcde-11de8a1ac973:8dfe5c96b01f46fb9451c0ea663aebcd
+[I 09:03:25.810 NotebookApp] Replaying 16 buffered messages
+Exception in callback ZMQChannelsHandler.open.<locals>.replay(<Future finis...=[None, None]>) at /home/runji/anaconda3/lib/python3.8/site-packages/notebook/services/kernels/handlers.py:382
+handle: <Handle ZMQChannelsHandler.open.<locals>.replay(<Future finis...=[None, None]>) at /home/runji/anaconda3/lib/python3.8/site-packages/notebook/services/kernels/handlers.py:382>
+Traceback (most recent call last):
+  File "/home/runji/anaconda3/lib/python3.8/asyncio/events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/runji/anaconda3/lib/python3.8/site-packages/notebook/services/kernels/handlers.py", line 388, in replay
+    self._on_zmq_reply(stream, msg_list)
+  File "/home/runji/anaconda3/lib/python3.8/site-packages/notebook/services/kernels/handlers.py", line 442, in _on_zmq_reply
+    msg = self.session.deserialize(fed_msg_list)
+  File "/home/runji/anaconda3/lib/python3.8/site-packages/jupyter_client/session.py", line 923, in deserialize
+    raise ValueError("Duplicate Signature: %r" % signature)
+ValueError: Duplicate Signature: b'9b8f23da66766e8a563561141e6926fff5e7ff07f2c11157cbdbb044da6cef1b'
+[I 09:05:15.382 NotebookApp] Saving file at /continue_train.ipynb
+[I 09:07:15.378 NotebookApp] Saving file at /continue_train.ipynb
+[I 09:09:15.383 NotebookApp] Saving file at /continue_train.ipynb
