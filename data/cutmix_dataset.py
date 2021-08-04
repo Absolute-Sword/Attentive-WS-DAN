@@ -12,19 +12,18 @@ import gzip
 
 class Cutmix_dataset(Dataset):
     def __init__(self, path="cutmix_data", scale=None, files=None, length=-1, gzip_flag=False):
-
-        file_names = os.listdir(path)
+        if files is not None:
+            self.file_names = files
+        else:
+            self.file_names = os.listdir(path)
 
         self.gzip_flag = gzip_flag
         self.path = path
         self.length = length
         self.scale = scale
-
-        if files is not None:
-            self.file_names = files
-        else:
-            if scale is not None:
-                self.file_names = file_names[:int(len(file_names) * scale)]
+        
+        if scale is not None:
+            self.file_names = file_names[:int(len(file_names) * scale)]
 
     def __getitem__(self, index):
         images = []

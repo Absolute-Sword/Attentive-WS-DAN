@@ -35,7 +35,7 @@ class Resize(object):
             bboxes[:, [1, 3]] = bboxes[:, [1, 3]] * resize_ratio + dw
             bboxes[:, [0, 2]] = bboxes[:, [0, 2]] * resize_ratio + dh
             return image_paded, bboxes, resize_ratio
-        return image
+        return image_paded
     
 def inverse_normalize(img):
     if opt.caffe_pretrain:

@@ -13,8 +13,9 @@ from model.utils.cutmix import cutmix_generate
 from utils.config import opt
 from torchnet.meter import ConfusionMeter, AverageValueMeter
 import matplotlib.pyplot as plt
+from utils.visual import res_visual
 from model.utils.center_tool import generate_map
-from utils.vis import res_visual
+
 
 
 LossTuple = namedtuple('LossTuple',

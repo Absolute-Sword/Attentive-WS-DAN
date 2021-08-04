@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fe90ae23-e25f-4487-8cb2-26091033d9f7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../continue_train.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../continue_train.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/cutmix_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/../data/cutmix_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/../data/dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jupyter.log" beforeDir="false" afterPath="$PROJECT_DIR$/../jupyter.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../log/fusion_cutmix_data_1e-3_train_from_scratch_data_30_pic_per_image_0.95_data_1cutmix_2origin_2021-08-02-09-03-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../log/fusion_cutmix_data_1e-3_train_from_scratch_data_30_pic_per_image_0.95_data_1cutmix_2origin_2021-08-02-09-03-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple-faster-rcnn-pytorch-master/.ipynb_checkpoints/Untitled-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple-faster-rcnn-pytorch-master/.ipynb_checkpoints/Untitled1-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple-faster-rcnn-pytorch-master/.ipynb_checkpoints/demo-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple-faster-rcnn-pytorch-master/Untitled.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple-faster-rcnn-pytorch-master/Untitled1.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple-faster-rcnn-pytorch-master/data/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple-faster-rcnn-pytorch-master/data/dataset.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple-faster-rcnn-pytorch-master/data/util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple-faster-rcnn-pytorch-master/data/voc_dataset.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple-faster-rcnn-pytorch-master/demo.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple-faster-rcnn-pytorch-master/misc/convert_caffe_pretrain.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple-faster-rcnn-pytorch-master/misc/demo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple-faster-rcnn-pytorch-master/misc/train_fast.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple-faster-rcnn-pytorch-master/model/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple-faster-rcnn-pytorch-master/model/faster_rcnn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple-faster-rcnn-pytorch-master/model/faster_rcnn_vgg16.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple-faster-rcnn-pytorch-master/model/region_proposal_network.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple-faster-rcnn-pytorch-master/model/utils/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple-faster-rcnn-pytorch-master/model/utils/bbox_tools.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple-faster-rcnn-pytorch-master/model/utils/creator_tool.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple-faster-rcnn-pytorch-master/train.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple-faster-rcnn-pytorch-master/trainer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple-faster-rcnn-pytorch-master/utils/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple-faster-rcnn-pytorch-master/utils/array_tool.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple-faster-rcnn-pytorch-master/utils/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple-faster-rcnn-pytorch-master/utils/eval_tool.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple-faster-rcnn-pytorch-master/utils/vis_tool.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/../utils/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/eval_tool.py" beforeDir="false" afterPath="$PROJECT_DIR$/../utils/eval_tool.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1wFBOsiAnGJNezD6YXd93GA26sJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fe90ae23-e25f-4487-8cb2-26091033d9f7" name="Default Changelist" comment="" />
+      <created>1628044427934</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1628044427934</updated>
+      <workItem from="1628044429043" duration="20000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

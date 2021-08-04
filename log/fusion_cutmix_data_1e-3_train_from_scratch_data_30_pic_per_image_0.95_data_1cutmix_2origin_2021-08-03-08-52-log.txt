@@ -1,0 +1,16 @@
+2021-08-03 08:52:09,883: INFO: [<ipython-input-11-b20157106351>:24]: [Batch: 0/Iter 0] cutmix training loss: 3.82
+2021-08-03 08:52:37,551: INFO: [<ipython-input-22-b20157106351>:24]: [Batch: 0/Iter 0] cutmix training loss: 0.33
+2021-08-03 08:58:51,414: INFO: [<ipython-input-22-b20157106351>:24]: [Batch: 0/Iter 150000] cutmix training loss: 0.67
+2021-08-03 09:15:30,288: INFO: [<ipython-input-22-b20157106351>:24]: [Batch: 0/Iter 545000] cutmix training loss: 0.68
+2021-08-03 09:21:52,859: INFO: [<ipython-input-22-b20157106351>:24]: [Batch: 0/Iter 695000] cutmix training loss: 0.68
+2021-08-03 09:44:11,622: INFO: [<ipython-input-22-b20157106351>:24]: [Batch: 0/Iter 1090000] cutmix training loss: 0.67
+2021-08-03 09:52:07,887: INFO: [<ipython-input-22-b20157106351>:24]: [Batch: 0/Iter 1240000] cutmix training loss: 0.67
+2021-08-03 10:08:04,705: INFO: [<ipython-input-22-b20157106351>:24]: [Batch: 0/Iter 1485000] cutmix training loss: 0.67
+2021-08-03 10:17:38,963: INFO: [<ipython-input-22-b20157106351>:24]: [Batch: 0/Iter 1635000] cutmix training loss: 0.67
+2021-08-03 10:42:49,822: INFO: [<ipython-input-22-b20157106351>:24]: [Batch: 0/Iter 2030000] cutmix training loss: 0.67
+2021-08-03 10:50:58,017: INFO: [<ipython-input-22-b20157106351>:24]: [Batch: 0/Iter 2180000] cutmix training loss: 0.67
+2021-08-03 11:06:51,677: INFO: [<ipython-input-22-b20157106351>:39]: [Batch: 0/Iter 5000] orin training loss: 0.51
+2021-08-03 11:06:53,027: INFO: [<ipython-input-22-b20157106351>:79]: [Batch: 0] training loss: 0.51 lr: 0.0009
+2021-08-03 11:10:12,298: INFO: [<ipython-input-22-b20157106351>:83]: [Batch: 0] eval loss: 0.6747
+2021-08-03 11:10:14,321: INFO: [<ipython-input-22-b20157106351>:24]: [Batch: 1/Iter 0] cutmix training loss: 0.85
+2021-08-03 11:16:24,737: INFO: [<ipython-input-22-b20157106351>:24]: [Batch: 1/Iter 150000] cutmix training loss: 0.56
